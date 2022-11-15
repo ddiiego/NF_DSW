@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    padding:10px 0px 0px 10px;
+    
+}
+
+.menu h1 a{
+    text-decoration: none;
+}
+.menu ul li {
+    padding: 10px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+.menu ul li a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover{
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+.pai
+ {
+    width: 80vw;
+    height: 50vh;
+    margin: 5vh auto;
+    
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.bti {
+    width: 20px;
+    border-radius: 50px;
+    border: none;
+    background: red;
+    
+}
+
+#sinal{
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+body > nav > div > ul > a > img{
+    width: 5vw;
+}
+
+/*contatos*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+table {
+    margin-top: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: none;
+    color: #5f5d5d;
+
+}
+
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: #daccce;
+}
+
+.bc {
+    width: 300px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 10px;
+    color: #5f5d5d;
+}
+.msg {
+    height: 100px;
+    margin: 0;
+}
+
+
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
