@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
     <title>Coontato</title>
 </head>
 <body>
@@ -19,7 +21,7 @@
             </ul>
         </div>
     </nav>
-    <form action="cadastro.html" name="formLogin" method="post">
+    <form action="formLogin" id="formLogin" name="formLogin" method="post">
         <table>
            <tr>
             <td><h1>Entre em contato</h1></td>
@@ -40,7 +42,7 @@
                 <td><label for="">Telefone:</label></td>
             </tr>
             <tr>
-                <td><input type="tel"></td>
+                <td><input type="tel" maxlength="9" id="tel"></td>
             </tr>
             <tr>
                 <td><label for="">Mensagem:</label></td>
@@ -53,5 +55,6 @@
             
         </table>
     </form>
+    <script src="./jqv.js"></script>
 </body>
 </html>

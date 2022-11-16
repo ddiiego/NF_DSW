@@ -1,34 +1,37 @@
 const sinal = document.getElementById('sinal');
-const buttons = document.getElementById('buttons')
-let colorIndex = 0;
-let intervalID = null;
 
-const trafficLight = ( Event ) => {
-    paraOauto();
-    turnOn[Event.target.id]();
-   
+const um = document.getElementById('1');
+const dois = document.getElementById('2');
+const tres = document.getElementById('3');
+const quatro = document.getElementById('4');
+const cinco = document.getElementById('5');
+
+function mudar1 () {
+    sinal.src = './img/inuyasha.jpg';
+
 }
 
-const nextIndex = () => {
-   colorIndex = colorIndex < 2 ? ++colorIndex : 0;
+function mudar2 () {
+    sinal.src = './img/ippo.png';
+
 }
 
-const changeColor = () => {
-    const colors = ['vermelho','amarelo','verde']
-    const color = colors[ colorIndex ];
-    turnOn[color]();
-    nextIndex();
+function mudar3 () {
+    sinal.src = './img/tenchi.jpg';
+
 }
 
-const paraOauto = () => {
-    clearInterval ( intervalID );
+function mudar4 () {
+    sinal.src = './img/tenjhotenge.jpg';
+
 }
 
-const turnOn = {
-    'vermelho':     () => sinal.src = './img/chrono.jpg',
-    'amarelo':      () => sinal.src = './img/inuyasha.jpg',
-    'verde':        () => sinal.src = './img/ippo.png',
-    'auto':         () => intervalID = setInterval( changeColor, 2000)    
-}
+function mudar5 () {
+    sinal.src =  './img/chrono.jpg';
 
-buttons.addEventListener('click', trafficLight);
+}
+um.addEventListener('click', mudar1);
+dois.addEventListener('click', mudar2);
+tres.addEventListener('click', mudar3);
+quatro.addEventListener('click', mudar4);
+cinco.addEventListener('click', mudar5);
