@@ -71,6 +71,7 @@ body > nav > div > ul > a > img{
     width: 5vw;
 }
 
+
 /*informativos*/
 
 .container {
@@ -93,7 +94,7 @@ body > nav > div > ul > a > img{
        color: red;
    }
    .main img {
-       width: 600px;
+       width: 100%;
    }
 
 /*contatos*/
@@ -104,6 +105,11 @@ body > nav > div > ul > a > img{
     box-sizing: border-box;
 }
 
+form {
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
 
 table {
     margin-top: 15vh;
@@ -113,6 +119,7 @@ table {
     gap: 10px;
     border: none;
     color: #5f5d5d;
+    width: 100%;
 
 }
 
