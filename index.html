@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./jqv.js"></script>
     <link rel="stylesheet" href="./style.css">
     <title>Banda -  Site</title>
 </head>
@@ -15,16 +16,15 @@
             <ul>
                 <a href="./index.html"><img src="https://www.wakeandlisten.com/wp-content/uploads/2016/05/red-hot-chili-peppers-logo.jpg" alt=""></a>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
                 <li><a href="./contato.html" target="_blank">Contato</a></li>
-                <li><a href="#">Mais</a></li>
+                <li><a href="./mais.html">Mais</a></li>
             </ul>
         </div>
     </nav>
     <main>
       <div class="pai">
         <div>
-            <img src="./img/chrono.jpg" alt="#" id="sinal">
+            <img src="./img/foto4.jpg" alt="#" id="sinal">
         </div>
         <div id="buttons">
             <input type="radio" name="base" id="1">
@@ -36,5 +36,45 @@
         <script src="./js.js"></script>
       </div>
     </main>
+
+    <div class="container">
+        <header>
+            <h1>Red Hot Chili Peppers</h1>
+            <p>Red Hot Chili Peppers (também conhecido como Chili Peppers, 
+                RHCP ou Red Hot) é uma banda de rock dos Estados Unidos formada em Los Angeles, Califórnia,
+                 em 13 de fevereiro de 1983.</p>
+            <strong>Por Diego Lima Alves, 202208686958.</strong>
+            
+            <p>31/08/2022 11:13 Atualizado</p>
+            <div class="icones">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAH0AfAMBEQACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIFBgcDBP/EADwQAAEDAgQDAQ0IAgMBAAAAAAEAAgMEEQUSITEGQVFxEyIyQlJhgZGhscHR8AcUIzNicpLhNFNDgtIk/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAQFAQIDBv/EAC0RAAICAgECBAUDBQAAAAAAAAABAgMEESESMQUyQVETImFxsYGR0RQzQqHw/9oADAMBAAIRAxEAPwDcUAIAQAgEQCoAQAgBACAEAIAQAgBACAEAIAKARABIA1QERX8RUFKS1shmePFi1Hr2XCeTCPHciWZtUOE9v6EPPxbUO/x6aNg/WS4/BR5ZkvREKXiM35YnlPE+JX0fEOxi5/1Vhz/r7h7OKcRb4Qgf2sI9xWVl2IyvELl7HvpeLo3ECqpnM/VG649RXWOYv8kSIeJLtOJPUeI0lc29NM15G7dnDtG6lQsjPysnV3V2r5Hs9S3Ool7boBUAIAQAgEJsgAdSgPJiWI0+HQGWofbk1o3cfMtLLI1rbOV10Ko9Uik4rjdXiTi1x7nByiadPSearbL5T+xSX5dl3HZexGDTZcSKCGQQwCAEA6N743tfG8te03DmmxCJtPaNlJp7RaMG4nJc2DEiBfRs3/r5qdTk74mWePn7+W39/wCS1AhwHO6mlqJsddkA5ACAEA0am/LkgPNiddFh9I+onOjdA0buPIBaWTUI7ZyutjVBykZ3iFfNiFS6ed1ydm8mjoFUzslN7Z5622VsuqR5sy0OYZkAXQBmQBmQBmQBmQBmQFk4WxwwPZQ1T/wXG0Tz4h6dimY1/T8kiywsvpfw59vQue41VgXAjSdigHIBr+Q6oBdggM/4oxM1+IOjY78CAlrQOZ5n4KryLeuel2RQ5t/xbNLsiGuo5D2WzhjAIpYG1tfHnz/lRuGlupCnY9Ca6pFrh4kXH4k19iZxLBKKpo5I46aGOQg5HsYAQ7ltyUidMJR1ol24tc4NJJMzpwLXFrgQ4GxB5FVXbuefe1wwWDGwQbBBsEGwQbBBsv8AwtihxCgySuvPDZrzzI5H66K0x7euHPdF/hX/ABa9PuiZfpY9N+xSCYOQDBq8npogPDxBWGhwiomabPy5WH9R0HzXK6fRBsj5VvwqnJdzMrqoPNnSnZ3aoiiJ/Me1mnnNlmK20jaC6pKPuaxG0MaGtFmgWA6K6XB6lLXCHLJkz3jCiNJizpWi0dQM4/d43wPpVZlQ6Z79yhz6ui3a7Mg8xUYghmKAMxQBmKAMxQBmKAl+Fa00mMwgnvJvwnenb229q740+mxfUmYVnRcvZ8Gjbq1PQDWeDruNEAR7E+c+9AVbj6ctpqSAE9+9zz6B/ahZkuEir8TlqEYlLuoBTjoZTDNHKNTG8PHoN1lPT2ZjLpal7GtQSMmibJGbseA5p6gq6T2tnqk1JbQ9zg0EuNgNSSsmTOeKcXZila0QG9PBdrD5RO57NB9FVeRb8SXHZHn83IV0/l7IhrqOQwugC6ALoAugC6AVkhje2RvhNIcO0InrkKXS9mtwPEsLJBs9ocPSrtPa2eri9pMa6QRPcDz1WTI+L8tqApf2gn/6qIcsj/eFX5nmRTeKeaP6lTuoZVhdAXjgjFhNTHD5Xfiwi8d/GZ/XusrHFt2uh+hd+HZHVH4b7r8FmqYWVEEkEgvHI0scOoIsVKa2tFhKKlFxfqZbi1BLhldJTTX01Y63ht5FU9lbrl0s8zfS6ZuDPHdaHILoAugC6ALoAugC6A1bBTfB6Enc08ZP8Qrir+3H7HqKHuqL+iCsNpR+1dDqeqHwLdCR7UBT/tDj/wAKbld7D7D8CoOYuzKjxReV/cplwoJUhcIDrS1MtJUR1EDsskbszSsxk4vaNoTlCSlHujUcExWHFqJs8RDXjSSPmxyt6rFZHaPSY98bodSOePYPBi9KI3nLK03jlAvlPyWLqlYtM1ycaN8dPv6GbYhQVOHVBgq4ixw2PiuHUHmFVzhKD1I8/bVOqXTNHmutDmSmC4FV4w2V9PlYyPTPJcAu6Cy7VUysTaJOPi2X7cexwxLCq7DHWrKd7G3sHjVp7CFrOqcPMjnbRZT51/B4rrmcguEAHbTdDBr9DF3Gigh/1xtb6hZXUFqKR6uuPTBR9kcqppfL3vIWWxueiPR72+e/rQEJxrRmpwKV7dXQOEo7Bv7CfUo+VHdbfsQvEK+uhv25M1uqs88F0AXQHtwjFJ8Kq21FMQeT2HZ46H6+S6V2OuW0dqL5UT6omnYRilNitMJqV97aPYfCYehVrXZGxbR6Km+F0eqJ1raGmr4TDVxNkYeR5dh5LMoRmtSRtZVCxdMlsqtXwM01ANJWObET3zZG3cB5jz9KiSw1vh8FbPwtdXyy4+pa6CkhoaWOmpmZI4xYD4nzqXGKgtIs6641xUY9kdpI2yNLJGhzSLEOFwVlrZs1taZRuNMCosPpWVtG0wufKGOjB703BNwOR07FAyaYQXVHgps/Frripw45/QqN1DKskOH6T79jNJBa7TJmf+0an3WXSmPVNI741fxLoxNY2VwenGRi+ZxF7uPyQCSd69r+R70/D686AdKxskbmPAc1wsQeYRrZhpNaZkmM4e/C8SmpH3ytN2OPjNOx+uiprIOEtHl8il02ODPFdaHELoAugO9FW1FBUCoo5THKNLjYjoRzC2hNwe0b12zrl1QemXjB+NKSoyx4k37tL5Y1jPxH1qp9eVF8S4LmjxKEuLOH/os8E8VRGJIJGyMOzmOBB9KlJp9iyjKMluLOqyZEJsgM944xiGumioqV4fHA4ukeNi7YAdba+tV2VapPpXoUXiORGxqEey/JV7qIVpefs/wwxxSYlK2zpR3OK/k31PpI9in4lel1v1LrwyjSdr9e32LfK4tabbnQdqmlqK1oa0ADYIAe0PaWnYoAZcsbm1NtUBRftIli+8UUQa3uoa5xdzsbWHsPqUDMa2kUvirXVFepTLqEVQXQBdAF0AZkB2pauopJO6Us8sLusby2/bbf0rMZOPZ6NoWSg9weiYg4yxqJga6ojltzkiF/ZZd1lWL1JcfEciK1vf6HmxHiPFcRYY6iqc2I7xxAMB7ban1rSd9k1ps5W5l9nEpcfT/tkVdciMS3DmDSY1XCIAimZYzSDkPJHnP9rrTU7Ja9CVi47yJ69F3NVhiZDEyKJgYxgDWtA0ACtktLSPSxiorSEb+JJm8Vmg855lZMnVANf4NuuiAXkgMo4wrPvfEVW4G7YyIm/wDXf23VTkS6rGeazp9eRL6cENdcSIFxyIQBdAF0AXQBdAF0AXQEvgHD9XjUoMYMVMD387hp2N6ldqqZWPjsSsbEne+OF7moYbh9NhlIympGZY2+tx5k9SrSEFBaR6KqqNUemPY6yOJd3NnhHc+SFsdDoxoa0NAsAgFQDTq4ebVAEmbIcgBdbS/VGH9Ck0nAWdxlxKvfI9xzPELLXJ31PyUKOH6yZUQ8L292S39ieouFsGpLFtCyRw1zT/ia+nRd449cfQmV4OPDtHf35/J6MTwPDsThEVVTNOUWY5gyuZ2Ee7ZbTqhNaaOluNVatSRS8T4ErYS52HTNqWcmSd6/17H2KHPEkvKypt8MsjzW9/n+PwV6rwnEqM2qaCpZbxu5kt9Y0UaVc490QZ0Ww80X+x4nXabO70+fRaHF8dx8cU0pAihkkJ2DGF3uRJvsjZRk+y2S1DwvjVaRlonwsPjznIB6Dr7F2jj2S9P3JNeFkT7R19+C14RwNSU5EmJSGqeP+MDLH8z9aKXXiRjzLksqfDK482c/gtscbImNZG1rGNFmtaLABS9aLNJJaQ10hcSyLU83cghkdGwMbYdpJ3JQD0AIBrdyUA5AczPHewdmPRov7kAmeR3gxWHVxsgEEj2fmt08puqA6Me14u1wPYgFsgGmNh3aCexNGNIUNA20QyOQHN0zAcoOZ3kt1KAblkl8M5G+SDqfSgOrWhoAaAAOQQCoAQAgPPFnkbfOGjzDVAP7gw6uu8/qN0B0AAFhoEAqAEBzfDG83LRm6jQoBvcXDwZXjt196AXJN/uH8EAdzlO838WgIA7g0+G57/3HRAPa1rRZoAHQIByAEAIAQAgP/9k=" alt="">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAYFBMVEU6VZ////8vT57d4e00Up4yT5woSZrDyd5ugLUaQJbZ3eloerH6+/1SaalCW6Lr7fMiRZgRPJVOZahccKyUn8aJlsHn6fKBkL309vrJz+FidbCqs9BHYKTT2Oecp8m0vNYSRfSRAAABcElEQVRoge3Y3Y6CMBCGYbZAKS7SivKnuHv/d7keAi2WNDM0cb/3mOShhOLUJEEIIYTQJ5ZZHWAKU+Z1c17FzYryehu7obL6Zl2zTNq0+nLGCWey7dwqLyym5ybLCUu18ZCZYXN7x/LBPpcLlr3HZYKz8xAHliefywPL1usywToOLHYsmAW+pHHgrNnhcsDC9+3ggk2xYQ16FgN8cb/To5rqWeTsC3axVW9y7jnLCfeGWX0lHG5xgOuErweMsy5Y15Hg9AgXMGDAgAG/KcvnCemARb6Owr2rZTbcqXUUI1e5Z4xep0sC2H9Cs6MYSYLgh4wEtyISrAhe6xC4opj+QmA9RYI7ig9ICPwkeKmDYJKTRQj8E2vFPcE2DoLvFL+TAXDVRII1yR8CAfCJYhuHwCPJOT1gEPil2E2JfBTLbGhYXjD2JI86EXKRseHULC+hca37cMAfNlcDBgwYMGDAgAEDBgwYMGDAgAEDBgz4P8N/E0AbyLGpeRgAAAAASUVORK5CYII=" alt="">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAUVBMVEVQq/H///9LqfFBpvA7pPD3+/77/f9csPLI4vr0+f6w1viDwPS12PjW6fvn8v2YyvZmtPKk0PfP5vu+3flxuPN3vPTt9f0yofCPxvXc7fwfnO8UCxtaAAADb0lEQVRoge2a23arIBCGdQbFgMaz0f3+D7qxOdQYojNI2tW1+O7aKn8H5gQYRYFAIBAIBAKBQOBPAzO/ICsEVFr3Ugj8UXmEMjvFV4a8FytxEB8TlnkaLxnK5cSDqDJNnglkCAPUSbzmrO+GIvRZGpOVQUn6s7J4EZ5R878PKMvJ/NBSbYE+LsjPVoNVOY4zxEg315Wg2hEJY0dzoSnL9I1yHBfZ/W8l3ZD5lZakDa/LbLGf7OBQ3yZs/1G0r/MzzddAJOcRt/Ga3dSEJUXZDGPiixRe4r5ExZ6fy3cutqBFBGncjRbZj9eGbnPSsd5XLqFXU3KLtV3k8s0tD4HzrvJwe6QhKUO1fHdjwU34UyloofpkdRwn47oY3EHlWznC9YudfdbFRFTOyFlZrP02baVtqYDg3zM5vX6L7OXtk5KvDYA8WXReqRllEEbLAElbrcShoiTRVHMKcBTZxyzGy1KdJl3wGpT3rttqEI9oI034xDN6a9CkKSs0nd+sT3EzrvR2hkyHQulOwoUSXOSe4w7sjpoO54Iy4bQMupSuaIGzD6XqL3SRlZ+3yVnNbacAAW3B7QCtWD6kTebU0T/tRXpk7YK+Klcy5Y0P6Z4lva5ch+Bt/V4q1wESXh61VC5nJp40UFpcIiwHn6GUJBr0ze0V0fpSTpk23zZdPmAutQFzT9Kc5ujOfnNPIe34JzqepvzscnzzvAVxxWW+tw4q6Jyki/K8FT+c1HhtwlIbNXVn8wYHJ/sW77PE3d/YHeEDCYjiYjuPI8Ir1QuwjZPhSDJ3N/pweFXuKy2ONUj0wzKL2d2RjMauWU/QDywsuCWyb7vd49rdx27S0tXDE/qhtm9t5lGCVdutcLObQas2ODQsjacrH+wbZpCdvV12AXZqYKifaEffVHFRjXVLk08OJFC7ugBaXv2A8kgLs+FwQK9ASSwlk19lQJkTM0vm08NmYUU9TVIeb01Ni9Rn1Lg66YPKcMf0ZdGY0Y/PGjharHpVasNYq4JTOg6bPGtrl4KRe8mdACVzy5NmlY9KNYNQMixPs87nxwkImnJPGs+XItW7uyhXQFRqf96bET/xOYaJLqk2bB9ajb4NXqqblFJn0yrK0qFoR/kRe9fyEMnOxLnK21bVpa6k+eXPfXUD8wRc+Y1PfQKBQCAQCAQCgQ/wH5iMJVWRfXNjAAAAAElFTkSuQmCC" alt="">
+            </div>
+            <hr>
+        </header>
+        <div class="main">
+            <p>
+                O estilo musical do grupo consiste principalmente no funk rock, bem como elementos de outros gêneros, 
+                tais como punk, rock alternativo, rap rock e rock psicodélico.
+                 A banda é constituída pelos membros fundadores Anthony Kiedis (vocais) e Flea (baixo), 
+                juntamente com o baterista de longa data Chad Smith e o guitarrista John Frusciante.
+            </p>
+            <p>
+                O Blood Sugar Sex Magik, foi primeiro grande sucesso do grupo lançado em 1991 e até hoje vendeu cerca de 14 milhões de cópias em todo o mundo, 
+                além de estar entre os 200 melhores álbuns da história. Durante a turnê desse álbum, John Frusciante deixou o grupo por ter lidado mal com o sucesso e seu vício em drogas aumentou,
+                assim a banda recrutou Arik Marshall para concluir a turnê. Depois Dave Navarro entra na banda, gravando One Hot Minute, os outros integrantes perceberam que ele não tinha o espirito
+                eufórico da banda e ele por sua vez desliga-se dos peppers. Embora bem sucedido comercialmente, o álbum não conseguiu se igualar a aclamação crítica e popular de Blood Sugar Sex Magik,
+                vendendo menos da metade que esse. Navarro saiu do grupo logo após a turnê. 
+            </p>
+            <br>
+            <p>Veja: <a href="#" class="me"><strong>Logo tipo da banda norte americana em total preto.</strong></a></p>
+    
+            <img src="./img/foto7.jpg" alt="">
+            
+        </div>
+    </div>
+    <script type="text/javascript" src="./jquery.mask.js"></script>
+    
 </body>
 </html>

@@ -71,6 +71,31 @@ body > nav > div > ul > a > img{
     width: 5vw;
 }
 
+/*informativos*/
+
+.container {
+    margin: auto;
+    max-width: 800px;
+    
+   }
+   
+   .main {
+       margin: auto;
+       max-width: 600px;
+   }
+   
+   .icones img {
+       width: 20px;
+   }
+   
+   .me {
+       text-decoration: none;
+       color: red;
+   }
+   .main img {
+       width: 600px;
+   }
+
 /*contatos*/
 
 * {
@@ -114,8 +139,12 @@ input {
     background: rgb(187, 51, 51);
 }
 .msg {
+    width: 300px;
     height: 100px;
     margin: 0;
+    border-radius: 15px;
+    border: none;
+    background: #daccce;
 }
 
 

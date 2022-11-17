@@ -15,9 +15,8 @@
             <ul>
                 <a href="./index.html"><img src="https://www.wakeandlisten.com/wp-content/uploads/2016/05/red-hot-chili-peppers-logo.jpg" alt=""></a>
                 <li><a href="./index.html">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
                 <li><a href="./contato.html">Contato</a></li>
-                <li><a href="#">Mais</a></li>
+                <li><a href="./mais.html">Mais</a></li>
             </ul>
         </div>
     </nav>
@@ -33,6 +32,12 @@
                 <td><input type="text" name="usuario"></td>
             </tr>
             <tr>
+                <td><label>CPF:</label></td>
+            </tr>
+            <tr>
+                <td><input type="tel" id="cpf" maxlength="11" name="cpf"></td>
+            </tr>
+            <tr>
                 <td><label>Email:</label></td>
             </tr>
             <tr>
@@ -42,13 +47,13 @@
                 <td><label for="">Telefone:</label></td>
             </tr>
             <tr>
-                <td><input type="tel" maxlength="9" id="tel"></td>
+                <td><input type="tel" name="tel" maxlength="9" id="tel"></td>
             </tr>
             <tr>
                 <td><label for="">Mensagem:</label></td>
             </tr>
             <tr>
-                <td><input  class="msg" type="text"></td>
+                <td><textarea name="mensagem" id="" class="msg" cols="30" rows="10"></textarea></td>
             </tr>
            
                 <td><button class="bc">Enviar</button></td>
@@ -56,5 +61,6 @@
         </table>
     </form>
     <script src="./jqv.js"></script>
+    <script src="./jquery.mask.js"></script>
 </body>
 </html>

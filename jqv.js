@@ -3,27 +3,48 @@ $(document).ready(function(){
         rules:{
             usuario:{
                 required: true,
-                minlength: 5
+                maxlength: 20
+            },
+            cpf:{
+                required: true,
+                minlength: 11
+            },
+            tel:{
+                required: true,
+                minlength: 9
+            },
+            mensagem:{
+                required: true,
+            
             }
         },
         messages:{
             usuario:{
                    required:"Por favor, informe seu nome",
-                   minlength:"O nome deve ter pelo menos 3 caracteres"
+                   maxlength:"O nome deve ter no máximo 20 caracteres"
             },
             email:{
                    required:"É necessário informar um email"
             },
+            cpf:{
+                required:"É necessário informar o CPF",
+                minlength:"O CPF deve ter pelo menos 11 caracteres"
+             },
             mensagem:{
                    required:"A mensagem não pode ficar em branco"
-            }     
+            },
+            tel:{
+                required:"Por favor, informe seu telefone",
+                minlength:"O telefone deve ter no mínimo 9 caracteres"     
+        }
+                 
         }
         
     })
 })
 
 jQuery(function($){
-    $("#campoData").mask("99/99/9999");
+    $("#cpf").mask("999.999.999-99");
     $("#tel").mask("(999) 999-9999");
     $("#campoSenha").mask("***-****");
     });
