@@ -9,6 +9,9 @@ $(document).ready(function(){
                 required: true,
                 minlength: 11
             },
+            email:{
+                required: true,
+            },
             tel:{
                 required: true,
                 minlength: 9
