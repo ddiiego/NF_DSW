@@ -160,3 +160,16 @@ h1 {
     margin-bottom: 30px;
     text-align: center;
 }
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0px 10px 0px 10px;
+    gap: 15px;
+    padding: 10px;
+    height: 100px;
+    border-radius: 15px 15px 0px 0px;
+    background: #daccce;
+
+}
